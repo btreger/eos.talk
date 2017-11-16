@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:id="@+id/gruppe1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:layout_marginTop="30dp"
-            android:text="Hello World! "
+            android:text="Haltestelle "
             android:textSize="19sp" />
 
         <EditText
@@ -38,7 +38,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="OK "
+        android:text="Suche "
         android:textSize="19sp" />
+    <ListView
+        android:id="@+id/liste"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
 
 </LinearLayout>
